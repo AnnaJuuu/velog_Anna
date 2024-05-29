@@ -23,7 +23,7 @@ jobs:
         git push https://anna${{ secrets.GH_PAT_ANNA }}@github.com/juhyeryeong/velog_Anna.git
 
     - name: Set up Python
-      uses: actions/update_blog.py@v2
+      uses: actions/setup-python@v2
       with:
         python-version: '3.x'
 
